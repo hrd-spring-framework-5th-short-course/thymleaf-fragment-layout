@@ -54,7 +54,6 @@
     <div th:replace="admin/fragments/sidebar::fr-sidebar"></div>
 
 
-
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper" layout:fragment="content">
 
@@ -260,8 +259,11 @@
 </div>
 <!-- ./wrapper -->
 
+
+
 <!-- jQuery 3 -->
 <script src="/resources/alte/bower_components/jquery/dist/jquery.min.js"></script>
+
 <!-- jQuery UI 1.11.4 -->
 <script src="/resources/alte/bower_components/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -297,8 +299,15 @@
 <script src="/resources/alte/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="/resources/alte/dist/js/demo.js"></script>
-</body>
 
+<script layout:fragment="script">
+
+
+</script>
+
+
+
+</body>
 
 </html>
 
